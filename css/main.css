@@ -1,0 +1,106 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.todo-block {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.head-block {
+    font-size: 14px;
+    background-color:rgb(211, 66, 66);
+    padding: 15px 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+}
+
+.btn-open-input-block, .btn-clean-tasks, .btn-task-add {
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(19, 93, 204)
+}
+
+.task-block {
+    padding: 20px 30px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(211, 66, 66);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+    font-size: 25px;
+}
+
+.task-completion {
+    color: green;
+    cursor: pointer;
+    padding: 1px 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+}
+
+.task-remove {
+    color: rgb(243, 45, 45);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.input-block {
+    width: 400px;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-around;
+    padding: 20px 20px;
+    border: 2px solid rgb(211, 66, 66);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+}
+
+.field-input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 250px;
+    border: 2px solid #66d48d;
+}
+
+.todos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-style-back {
+    background-color: rgb(89, 204, 250);
+}
+
+.blue-style-border {
+    border: 2px solid rgb(89, 204, 250);
+}
+
+.green-style-back {
+    background-color: rgb(65, 221, 143);
+}
+.green-style-border {
+    border: 2px solid rgb(65, 221, 143);
+}
