@@ -1,18 +1,39 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+body {
+    margin: 0 0;
+    height: 100vh;
+    background: radial-gradient(white, #feb47b) no-repeat;
+}
+@keyframes show {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1;
+    }
+}
 .todo-block {
-    padding-top: 70px;
+    padding-top: 30px;
     text-align: center;
 }
-
+.main {
+    padding: 30px;
+}
 .main-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
     text-align: center;
 }
 
 .head-block {
-    font-size: 14px;
     background-color:rgb(211, 66, 66);
     padding: 15px 20px;
     width: 400px;
@@ -22,9 +43,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+    box-shadow: rgb(83, 83, 83) 4px 4px 4px;
 }
-
+.head-block-text {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
 .btn-open-input-block, .btn-clean-tasks, .btn-task-add {
     font-size: 16px;
     height: 40px;
@@ -37,6 +62,9 @@
 }
 
 .task-block {
+    background-color: #fff;
+    animation-duration: 1000ms;
+    animation-direction: inherit;
     padding: 20px 30px;
     width: 400px;
     margin: 0 auto;
@@ -47,10 +75,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+    box-shadow: rgb(83, 83, 83) 4px 4px 4px;
     font-size: 25px;
 }
-
+.task-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
 .task-completion {
     color: green;
     cursor: pointer;
@@ -67,6 +99,7 @@
 }
 
 .input-block {
+    background-color: #fff;
     width: 400px;
     margin: 0 auto;
     display: none;
@@ -75,10 +108,11 @@
     border: 2px solid rgb(211, 66, 66);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: rgb(190, 184, 184) 4px 4px 4px;
+    box-shadow: rgb(83, 83, 83) 4px 4px 4px;
 }
 
 .field-input {
+    font-size: 15px;
     padding: 10px 10px;
     border-radius: 5px;
     width: 250px;

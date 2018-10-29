@@ -136,6 +136,7 @@ class Todo
         this.taskBlock.appendChild(taskText);
         this.taskBlock.appendChild(taskRemove);
         this.todoBlock.insertBefore(this.taskBlock, this.inputBlock);
+        this.taskBlock.style.animationName = "show";
     }
 }
 
